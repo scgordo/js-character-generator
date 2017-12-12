@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Character Generator</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div id="swordsman">
+    <img src="http://www.zbrushcentral.com/attachment.php?attachmentid=293487" alt="Armored swordsman">
+</div>
+
+<!-- end swordsman div-->
+
+<div id="mage">
+  <img src="https://i.pinimg.com/736x/94/85/40/948540ac7ee8375a0c5f8bc2e1e8f16a--fantasy-characters-magic-magic-spells-fantasy.jpg" alt="Mage casting a spell">
+  
+</div>
+<!-- end mage div-->
+
+<main>
+<h1>Roll Your Character</h1>
+  <form name="characterForm">
+    First Name: <input type="text" name="firstName"><br><br>
+    Last Name: <input type="text" name="lastName"><br><br>
+    Gender: <br><br>
+    <input type="radio" name="gender" value="Male">Male<br>
+    <input type="radio" name="gender" value="Female">Female<br>
+    <input type="radio" name="gender" value="Unknown">Unknown<br><br>
+    Age:
+  <input type="text" name="age"><br><br>
+
+  </form><br>
+  <button onclick="rollCharacter()">Show Your Character</button>
+  
+<p id="charfirstname"></p>
+<p id="charlastname"></p>
+<p id="charage"></p>
+<p id="chargender"></p>
+<p id="charrace"></p>
+<p id="charclass"></p>
+<p id="charstrength"></p>
+<p id="charintelligence"></p>
+<p id="chardexterity"></p>
+<p id="charvitality"></p>
+<p id="charwisdom"></p>
+<p id="charcharisma"></p>
+</main>
+  
+    <script  src="js/index.js"></script>
+
+</body>
+</html>

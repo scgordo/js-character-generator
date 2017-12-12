@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url("https://i.pinimg.com/originals/bf/98/1e/bf981ec6c69cfbdb816c042f0081929f.jpg");
+}
+
+main {
+    width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    clear: none;
+    opacity: 0.65;
+}
+
+h1 {
+    color: navy;
+    padding: 0;
+    margin: 1em 0 .5em .5em;
+}
+
+#swordsman img {
+  width: 30%;
+  height: 600px;
+  float: left;
+}
+
+#mage img {
+  width: 30%;
+  height: 600px;
+  float: right;
+}
+
+p {
+  color: navy;
+  font-weight: bold;
+  margin: .5em 0;
+}
